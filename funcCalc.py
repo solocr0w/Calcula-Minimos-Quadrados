@@ -58,7 +58,7 @@ def main():
     if coeficienteA is not None and coeficienteB is not None:
         print(f"Os coeficientes da reta que melhor faz o encaixe são a = {coeficienteA}, b = {coeficienteB}")
     else:
-        print("Não foi possível calcular os coeficientes.")
+        print("Não deu pra calcular os coeficientes.")
 
 if __name__ == "__main__":
     main()
