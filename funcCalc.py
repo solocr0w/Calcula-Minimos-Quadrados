@@ -13,7 +13,7 @@ def calculaA(x, y, N):
     denominador = N * somaxQuad - (somaX * somaX)
     
     if denominador == 0:
-        print("Erro: Divisão por zero (todos os valores de X são iguais).")
+        print("Erro: Divisão por zero.")
         return None
     else:
         a = ((N * multXY) - (somaX * somaY)) / denominador
